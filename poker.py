@@ -54,7 +54,7 @@ def evaluar_mano(mano):
 
 # region INTERFAZ_STREAMLIT
 def main():
-    st.title("Poker: Five Card Draw")
+    st.title("Poker: 5 cartas Cato ")
 
     if 'estado' not in st.session_state:
         st.session_state.estado = 'INICIO'
